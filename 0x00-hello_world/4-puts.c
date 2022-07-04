@@ -1,6 +1,6 @@
 #include<stdio.h>
 /**
- * main-task-puts.c
+ * main-Write a C program that prints exactly
  *return:0
  */
 int main(void)
