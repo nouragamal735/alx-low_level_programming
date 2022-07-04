@@ -1,2 +1,2 @@
-#!/bin/bbash
+#!/bin/bash
 gcc -E $CFILE -o c
