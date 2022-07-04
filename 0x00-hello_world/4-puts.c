@@ -1,7 +1,7 @@
 #include<stdio.h>
-/*
- * task-puts.c
- *
+/**
+ * main-task-puts.c
+ *return:0
  */
 int main(void)
 {
