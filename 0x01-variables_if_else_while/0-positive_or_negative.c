@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main -> The program assume number in each time executed
- *return (0);
+ * main - The program assume number in each time executed
+ *Return: (0);
 */
 int main(void)
 {
