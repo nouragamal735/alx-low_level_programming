@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include <time.h>
 
 /**
  *main - prints the alphabet in lowercase, and then in uppercase.
@@ -8,13 +9,9 @@ int main(void)
 {
 char x;
 for (x = 'a'; a <= 'z'; a++)
-{
-	putchar(x);
-}
+putchar(x);
 for (x = 'A'; a <= 'Z'; a++)
-{
-	putchar(x);
-}
+putchar(x);
 putchar('\n');
 return (0);
 }
