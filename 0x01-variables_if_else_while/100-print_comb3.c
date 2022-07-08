@@ -7,14 +7,21 @@
 int main(void)
 {
 int x;
+int n;
 for (x = 0; x < 10; x++)
 {
-putchar(x);
-if (x != 10)
+for (n = 0; n < 10; n++)
 {
-putchar((x / 10) + '0');
+if (n > x)
+{
+putchar(x);
+putchar(n);
+if (x != 9 || n != 10)
+{
 putchar(',');
 putchar(' ');
+}
+}
 }
 }
 putchar('\n');
