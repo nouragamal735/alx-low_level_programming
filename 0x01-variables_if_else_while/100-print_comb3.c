@@ -16,7 +16,7 @@ if (n > x)
 {
 putchar('0' + x);
 putchar('0' + n);
-if (x != 9 || n != 9)
+if (x != 8 || n != 9)
 {
 putchar(',');
 putchar(' ');
