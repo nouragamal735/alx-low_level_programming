@@ -15,7 +15,7 @@ for (n = 0; n < 10; n++)
 if (n > x)
 {
 putchar('0' + x);
-putchar(n);
+putchar('0' + n);
 if (x != 9 || n != 10)
 {
 putchar(',');
